@@ -1,0 +1,32 @@
+{
+  "name": "xap",
+  "version": "0.0.1",
+  "description": "Expandable Admin Panel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmzi/XAP.git"
+  },
+  "author": "Pouya MozaffarMagham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmzi/XAP/issues"
+  },
+  "homepage": "https://github.com/pmzi/XAP#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
