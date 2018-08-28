@@ -7,6 +7,17 @@
  */
 html {
   box-sizing: border-box;
+  font-size: calc(100% * 0.625);
+  font-family: $text-font-stack;
+}
+
+body{
+  margin: 0px;
+  overflow: hidden;
+}
+
+html, body, #app{
+  height: 100%;
 }
 
 /**

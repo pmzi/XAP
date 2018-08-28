@@ -1,0 +1,5 @@
+.grid12{
+    display: grid;
+    grid-auto-rows: minmax(10rem, min-content);
+    grid-template-columns: repeat(12, 1fr);
+}
