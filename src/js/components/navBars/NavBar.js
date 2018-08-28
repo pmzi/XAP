@@ -10,7 +10,7 @@ class NavBar extends React.Component {
         
         return (
             <nav className='navbar'>
-
+                {this.props.children}
             </nav>
         )
     }
