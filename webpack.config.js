@@ -5,7 +5,7 @@ module.exports = {
     devtool: 'inline-source-map',
     entry: './src/js/index.js',
     output: {
-        filename: './dist/bundle.js'
+        filename: './bundle.js'
     },
     module: {
         rules: [
